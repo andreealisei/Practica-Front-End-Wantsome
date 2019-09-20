@@ -1,0 +1,6 @@
+Branching is a feature available in most modern version control systems. 
+Instead of copying files from directory to directory, Git stores a branch as a 
+reference to a commit. In this sense, a branch represents the tip of a series of 
+commits—it's not a container for commits.
+
+A commit, or "revision", is an individual change to a file (or set of files).
