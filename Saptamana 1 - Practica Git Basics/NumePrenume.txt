@@ -1,2 +1,8 @@
+<<<<<<< Updated upstream
 Practica pe bune la Wantsome. Azi invatam Git!
 Toate comenzile din Sourcetree si nu numai.
+=======
+Practica pe bune la Wantsome. Azi invatam despre Git! 
+
+Greseala.
+>>>>>>> Stashed changes
