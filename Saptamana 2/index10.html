@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel reservation form</title>
+
+    </head>
+    <body>
+        <h2>Travel reservation form</h2>
+        <h4>* denotes mandotory</h3>
+            <br>
+        <form>
+            <label for="fullname">Full name*:</label>
+            <br>
+            <input type="text" name="fullname" required>
+            <br>
+            <label for="EmailAdress">Email adress*:</label>
+            <br>
+            <input type="email" name="EmailAdress" required>
+            <br>
+            <label for="choosetourpackage">Select Tour Package</label>
+            <br>
+            <select name="choosetourpackage">
+                    <option value="Package0">Goa</option>
+                    <option value="Package1">Package Full</option>
+                    <option value="Package2">Extra Package</option>
+                    <option value="Package3">Smart Package</option>
+                    
+            </select>
+            <br>
+            
+            <label for="ArrivalDate">Arrival date*:</label>
+            <br>
+            <input type="date" name="ArrivalDate" required>
+            <br>
+            <label for="numberofpersons">Number of persons*:</label><br>
+
+            <input type="number" name="numberofpersons" required>
+            <br>
+            <label for="avail">What would you want to avail?*:</label><br>
+            Boarding<input type="checkbox" name="avail"> <br>
+            Fooding <input type="checkbox" name="avail"> <br>
+            Sight seeing<input type="checkbox" name="avail"> <br>
+
+            <label for="discount">Discount Coupon code:</label><br>
+            <input type="text" name="discount">
+            <br>
+            <label for="termsnadconditions">Terms and conditions*:</label><br>
+            <input type="radio" name="termsnadconditions" checked> I agree
+            <input type="radio" name="termsnadconditions"> I disagree
+            <br>
+            <br>
+            <label for="Complete reservation"></label>
+            <input type="submit" name="Complete reservation" value="Complete reservation"> 
+            <br>
+
+
+
+
+        </form>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
