@@ -1,0 +1,23 @@
+a {
+    color:red;
+}
+.greenlink {
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+}
+#redlink {
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+}
+.greenlink a {
+    color: green;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

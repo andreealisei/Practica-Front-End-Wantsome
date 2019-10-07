@@ -1,0 +1,11 @@
+body {
+    background-image: url ("giraffe.jpg");
+    border: 10px dotted red;
+    padding: 15px;
+    background-clip: content-box;
+   
+  }
+img {
+    width: 300px;
+    height: 350px;
+}

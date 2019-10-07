@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    border: 1px green solid;
+ }
+.navigation {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    border: 1px solid palevioletred;
+  }
+nav {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    color: pink;
+}
+ul li::before {
+    content:"• ";
+    color:black;
+}
+section {
+    margin-left: 200px;
+    padding: 5px;
+    border: 1px orange solid;
+  }
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    border: 2px green solid; 
+  }
+body {
+    margin-bottom: 120px;
+  }

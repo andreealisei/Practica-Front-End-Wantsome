@@ -1,0 +1,57 @@
+ul li:nth-child(2n) {
+    color:green;
+}
+
+li:nth-child(3) {
+    background: lightblue;
+}
+ul li:first-child {
+    border-top-color:  green;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+}
+ul li:last-child {
+    border-bottom-color: blue;
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+}
+
+/* Nu am reusit sa fac un selector bun pentru link individual
+li:nth-child(5){
+    color:red;
+ }
+a:nth-child(5){
+  color: red;
+}
+ */
+a:hover {
+    color:grey;
+}
+
+ul li:nth-child(5){
+    list-style-type: none;
+}
+ul li:nth-child(2){
+    list-style-type: none;
+}
+
+input[type^="text"]:focus{
+    background: grey;
+}
+input[placeholder="first name"]:hover{
+    background: green;
+}
+input[placeholder="last name"]:hover{
+    background: blue;
+}
+input[type="password"]:hover{
+  color: rgba(0, 0, 0, 0);
+}
+input[placeholder="email"]:hover{
+    background: yellow;
+    color: pink; 
+}
+input[value="SEND"]:hover{
+    color: red;  
+}
