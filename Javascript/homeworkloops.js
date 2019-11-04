@@ -85,4 +85,39 @@ function myNumber(number){          // declar functia
 
   //exercitiul 3.
 
+  function multiplication() {
+    var res = '\n';
+    for (var x = 1; x <= 10; x++) { 
+      for (var y = 1; y <= 10; y++) {
+      res += x * y + " ";
+    }
+     res += '\n';
+    }
+    return  res;
+}
+console.log(multiplication())
+
+//ex4
+
+function calificativ() {
+    var i;
+    for (i = 1; i <= 3; i++) {
+        console.log("Calificativul corespunzator punctajului " + i + " este " + "E")
+    }
+    for (i = 4; i <= 6; i++) {
+        console.log("Calificativul corespunzator punctajului " + i + " este " + "D")
+    }
+    for (i = 7; i <= 8; i++) {
+        console.log("Calificativul corespunzator punctajului " + i + " este " + "B")
+    }
+    for (i = 9; i < 10; i++) {
+        console.log("Calificativul corespunzator punctajului " + i + " este " + "A")
+    }
+    for (i = 10; i < 11; i++) {
+        console.log("Calificativul corespunzator punctajului " + i + " este " + "A+")
+    }
+}
+
+console.log(calificativ())
+
   
