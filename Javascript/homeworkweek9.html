@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>Despre mine</title>
+    <style>
+     .listitem {
+       color: red;
+     }
+   </style>
+</head>
+<body>
+  <h1>Despre mine</h1>
+  
+  <ul>
+    <li class = "listitem">Nume: <span id="name"></span>
+    <li class = "listitem">Bautura Favorita:  <span id="fav-drink"></span>
+    <li class = "listitem">Locul nasterii: <span id="born-place"></span>
+   </ul>
+</body>
+  
+ <script>
+    
+const body = document.querySelector("body");
+body.style.fontFamily = "Arial, sans-serif";
+
+ const spanName = document.getElementById("name");
+ spanName.textContent = 'Andreea';
+ const spanDrink = document.getElementById("fav-drink");
+ spanDrink.textContent = 'Cuba-libre';
+ const spanPlace = document.getElementById("born-place");
+ spanPlace.textContent = 'Botosani';
+ /*const lis = document.getElementsByClassName("listitem");
+ lis[1].nextElementSibling.style.color = "red";
+ lis[1].previousElementSibling.style.color = "red"; 
+ lis[1].style.color  = "red" ; */
+     
+const image = document.createElement('img');
+body.appendChild(image);
+image.setAttribute('src', 'https://res.cloudinary.com/teepublic/image/private/s--jqcahkC---/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_fffffe,e_outline:48/co_fffffe,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1514384324/production/designs/2225733_1.jpg');
+image.setAttribute('width', '300px');
+</script>
+</html>
+        
+</script>
+</html>
+  
+  
